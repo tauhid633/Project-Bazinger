@@ -265,11 +265,17 @@
             <div class="contact-form">
                 <h2>Contact</h2>
                 <form>
-                    <input type="text" placeholder="Your Name">
-                    <input type="text" placeholder="Your Email">
-                    <input type="text" placeholder="Subject">
+                    <input type="text" placeholder="Your Name" id="yname">
+                    <div id="yname_err"></div>
+
+                    <input type="text" placeholder="Your Email" id="email">
+                    <div id="email_err"></div>
+
+                    <input type="text" placeholder="Subject" id="subject">
+                    <div id="subject_err"></div>
+
                     <textarea placeholder="Message"></textarea>
-                    <button type="submit">Send</button>
+                    <button type="submit" onclick="return form_valid()">Send</button>
                 </form>
             </div>
         </div>
@@ -290,6 +296,8 @@
     <!--================================================
                 Footer part End
 ==================================================-->
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
