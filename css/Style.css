@@ -1,0 +1,794 @@
+/*================================================
+                Common Css Start
+==================================================*/
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.full_wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+/*================================================
+                Common Css End
+==================================================*/
+
+/*================================================
+                Menu Css Start
+==================================================*/
+.menu-full {
+    background: #131e29;
+    height: 100px;
+    border-bottom: 1px solid #47586d;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+    line-height: 100px;
+}
+
+.main-menu {
+    width: 970px;
+    float: left;
+}
+
+.main-menu ul {
+    float: right;
+}
+
+.main-menu ul li {
+    float: left;
+}
+
+.main-menu ul li a {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 100px;
+    text-transform: uppercase;
+    margin-left: 36px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.main-menu ul li a:hover {
+    color: #4bcaff;
+    font-weight: 700px;
+}
+
+/*================================================
+                Menu Css End
+==================================================*/
+
+
+/*================================================
+                Banner Css Start
+==================================================*/
+.banner-full {
+    background: url(../Images/Banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 4px solid #4bcaff;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-img {
+    float: left;
+    position: absolute;
+    left: -60px;
+    bottom: -20px;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-text {
+    padding: 235px 0 0;
+    width: 60%;
+    float: right;
+    text-align: left;
+}
+
+.banner-text h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 17px;
+}
+
+.banner-text h1 span {
+    font-weight: 700;
+}
+
+.banner-text p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 40px;
+}
+
+.banner-text a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    padding: 25px 50px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    position: relative;
+}
+
+.mar-left {
+    margin-left: 35px;
+}
+
+.banner-text a:hover {
+    background: #4bcaff;
+    border: 3px solid #4bcaff;
+    box-shadow: 0 5px 0 #277697;
+}
+
+.banner-text-avail {
+    padding-bottom: 115px;
+    margin-top: 50px;
+    width: 60%;
+    float: right;
+}
+
+.banner-text-avail h6 a {
+    text-align: center;
+    color: #4bcaff;
+    font-size: 30px;
+    line-height: 52px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #141a21;
+    margin-left: 15px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.banner-text-avail h6 {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+.banner-text-avail h6 a:hover {
+    color: #fff;
+}
+
+
+/*================================================
+                Banner Css End
+==================================================*/
+
+/*================================================
+                Feature Css Start
+==================================================*/
+.feature-full {
+    padding: 41px 0 87px;
+    border-bottom: 1px solid #efefef;
+}
+
+.feature-head {
+    text-align: center;
+}
+
+.feature-head h2 {
+    color: #414042;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+.feature-head p {
+    color: #414042;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 62px;
+    margin-top: -4px;
+}
+
+.feature-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-item {
+    text-align: center;
+    width: 20%;
+    cursor: pointer;
+}
+
+.feature-item i {
+    margin-top: 50px;
+    position: relative;
+    font-size: 70px;
+    color: #fff;
+}
+
+.feature-item i::after {
+    height: 162px;
+    width: 162px;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #4bcaff;
+    z-index: -1;
+    border: 4px solid #efefef;
+}
+
+.feature-item h3 {
+    color: #414042;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    padding-top: 75px;
+    text-transform: uppercase;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.feature-item p {
+    color: #838383;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 22px;
+    padding-top: 19px;
+}
+
+.feature-item:hover > h3 {
+    color: #4bcaff;
+}
+
+/*================================================
+                Feature Css End
+==================================================*/
+
+
+/*================================================
+                Gallery Css Start
+==================================================*/
+.gallery-full {
+    padding: 50px 0 109px;
+}
+
+.gallery-head {
+    text-align: center;
+}
+
+.gallery-head h2 {
+    color: #414042;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+.gallery-head p {
+    color: #414042;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 57px;
+    margin-top: -4px;
+}
+
+.gallery-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    text-align: center;
+    width: 23%;
+    cursor: pointer;
+}
+
+.gallery-screenshot {
+    height: 200px;
+    width: 100%;
+    background: #4bcaff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-screenshot .overly {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    height: 41px;
+    background: #447084;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 41px;
+    visibility: hidden;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.gallery-screenshot .overly h4 {
+    color: #4bcaff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.gallery-screenshot:hover .overly {
+    bottom: 0;
+    visibility: visible;
+}
+
+.gallery-item p {
+    color: #838383;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    padding-top: 19px;
+    padding: 19px 21px 0;
+}
+
+/*================================================
+                Galler Css End
+==================================================*/
+
+/*================================================
+                Action Css Start
+==================================================*/
+.action-full {
+    background: url(../Images/Action-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 68px 0 204px;
+}
+
+.action-head h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+.action-head h2 span {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.action-inner {
+    margin-left: 25.5%;
+    text-align: left;
+    width: 52%;
+}
+
+.action-inner p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Myriad Pro';
+    padding-top: 37px;
+}
+
+.action-inner p span {
+    display: block;
+    padding-top: 30px;
+}
+
+/*================================================
+                Action Css End
+==================================================*/
+
+
+/*================================================
+                Package Css Start
+==================================================*/
+.package-full {
+    padding: 71px 0 69px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.package-head {
+    text-align: center;
+}
+
+.package-head h2 {
+    color: #414042;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+.package-head p {
+    color: #414042;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 57px;
+    margin-top: -4px;
+}
+
+.package-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.package-item {
+    float: left;
+    margin-right: 25px;
+    padding: 25px 0 20px;
+    background: #f9f9f9;
+    width: 300px;
+    height: 415px;
+    text-align: center;
+    border: 1px solid #dad7d7;
+    margin-top: 20px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.package-item:hover {
+    transform: scale(1.1);
+}
+
+.package-item h4 {
+    color: #d7d7d7;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    padding: 0 0 22px;
+
+}
+
+.package-item p {
+    width: 100%;
+    height: 115px;
+    background: #91c46b;
+    color: #ffffff;
+    font-size: 85px;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+}
+
+.package-item ul {
+    padding-top: 25px;
+}
+
+.package-item ul li {
+    color: #d7d7d7;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 13px;
+}
+
+.package-item a {
+    color: #fefefe;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    padding: 19px 47px;
+    background: #91c46b;
+    border-radius: 5px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.advanced {
+    margin-right: 0;
+}
+
+.pro h4,
+.pro ul li {
+    color: #4bcaff;
+}
+
+.pro a,
+.pro p {
+    background: #4bcaff;
+}
+
+.advanced a,
+.advanced p {
+    background: #fd7c00;
+}
+
+/*================================================
+                Package Css End
+==================================================*/
+
+/*================================================
+                Testimonial Css Start
+==================================================*/
+.testimoni-full {
+    padding: 31px 0 105px;
+}
+
+.testimoni-head {
+    text-align: center;
+}
+
+.testimoni-head h2 {
+    color: #414042;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 33px;
+}
+
+.testimoni-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.testimoni-inner-avtar {
+    position: relative;
+    width: 139px;
+    height: 80.25px;
+    background-color: #4bcaff;
+    margin: 40.13px 0;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.testimoni-inner-avtar:before,
+.testimoni-inner-avtar:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 69.5px solid transparent;
+    border-right: 69.5px solid transparent;
+}
+
+.testimoni-inner-avtar:before {
+    left: 0;
+    bottom: 100%;
+    border-bottom: 40.13px solid #4bcaff;
+    border-radius: 3px;
+}
+
+.testimoni-inner-avtar:after {
+    left: 0;
+    top: 100%;
+    width: 0;
+    border-top: 40.13px solid #4bcaff;
+    border-radius: 3px;
+}
+
+.testimoni-inner-avtar i {
+    font-size: 80px;
+    color: #fff;
+    line-height: 80.25px;
+}
+
+.testimoni-inner-text {
+    width: 30%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.testimoni-inner-text p {
+    color: #4bcaff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    line-height: 18px;
+    padding-top: 27px;
+}
+
+.testimoni-inner-text p span {
+    display: block;
+    text-align: right;
+    font-style: italic;
+}
+
+/*================================================
+                Testimonial Css End
+==================================================*/
+
+
+/*================================================
+                Download Css Start
+==================================================*/
+.download-full {
+    padding: 22px 0 30px;
+    background: #414042;
+}
+
+.download-cont {
+    text-align: center;
+}
+
+.download-cont h2 {
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 26px;
+}
+
+.download-cont a {
+    color: #4bcaff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    padding: 25px 32px;
+    border-radius: 10px;
+    border: 5px solid #4bcaff;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.download-cont a:hover {
+    border: 5px solid #4bcaff;
+    box-shadow: 0 5px 0 #277697;
+    background: #4bcaff;
+    color: #414042;
+}
+
+/*================================================
+                Download Css End
+==================================================*/
+
+/*================================================
+                Common Css Start
+==================================================*/
+.contact-full {
+    background: url(../Images/Map-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 109px 0 113px;
+}
+
+.contact-form {
+    width: 327px;
+    margin: 0 auto;
+    background: rgba(75, 202, 255, 0.8);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.contact-form h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    padding: 20px 0;
+}
+
+.contact-form input {
+    display: block;
+    width: 270px;
+    height: 34px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+    border: 0;
+    border-radius: 5px;
+    background: #ffffff;
+    padding-left: 5px;
+}
+
+.contact-form input::placeholder {
+    color: #d3d3d3;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+.contact-form textarea {
+    display: block;
+    resize: none;
+    width: 270px;
+    height: 145px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+
+.contact-form textarea::placeholder {
+    color: #d3d3d3;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+.contact-form button {
+    color: #72b3cc;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    padding: 18px 79px;
+    background: #414042;
+    transition: all linear .4s;
+    -webkit-transition: all liear .4s;
+    border: 0;
+    border-radius: 5px;
+    margin: 20px 0 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    box-shadow: 0 5px 0 #313032;
+}
+
+/*================================================
+                Common Css End
+==================================================*/
+
+/*================================================
+                Footer Css Start
+==================================================*/
+.footer-full {
+    padding: 50px 0;
+    background: #414042;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-cont span {
+    color: rgba(254, 254, 254, 0.25);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+/*================================================
+                Footer Css End
+==================================================*/
